@@ -29,5 +29,15 @@ namespace DemoWebApi.Controllers
             })
             .ToArray();
         }
+
+
+
+			[HttpGet]
+			[Route("GetMsg")]
+			public string GetMsg()
+			{
+				return "Hello from GetMsg";
+			}
+
     }
 }
