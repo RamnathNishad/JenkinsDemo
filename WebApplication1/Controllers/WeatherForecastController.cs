@@ -34,7 +34,7 @@ namespace WebApplication1.Controllers
         [Route("GetMsg")]
         public string GetMsg()
         {
-            return "Hello from GetMsg";
+            return "Hello from GetMsg Action method";
         }
 
     }
