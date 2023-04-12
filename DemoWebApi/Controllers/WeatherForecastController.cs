@@ -36,7 +36,7 @@ namespace DemoWebApi.Controllers
 			[Route("GetMsg")]
 			public string GetMsg()
 			{
-				return "Hello from GetMsgsss";
+				return "Hello from GetMsg";
 			}
 
     }
